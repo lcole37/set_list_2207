@@ -11,3 +11,6 @@ Artist.destroy_all
 artist = Artist.create!(name: 'Carly Rae Jepson')
 song = artist.songs.create!(title: "I Really Like You", length: 208, play_count: 2456357)
 song2 = artist.songs.create!(title: "Call Me Maybe", length: 107, play_count: 501535)
+prince = Artist.create!(name: "Prince")
+purple = prince.songs.create!(title: 'Purple Rain', length: 444, play_count: 635324)
+beret = prince.songs.create!(title: 'Raspberry beret', length: 6643, play_count: 343)
