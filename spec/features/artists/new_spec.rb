@@ -24,6 +24,6 @@ RSpec.describe 'Artist creation' do
     click_button("Create Artist")
 
     expect(current_path).to eq("/artists")
-    expect(page).to have_content("Prince)")
+    expect(page).to have_content("Prince")
   end
 end
